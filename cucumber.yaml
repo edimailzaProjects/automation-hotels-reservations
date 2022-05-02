@@ -1,0 +1,7 @@
+---
+default: -p chrome -p html -p pretty -p bdd
+chrome: BROWSER=chrome
+headless: BROWSER=headless
+html: --format html --out=logs/html/report.html
+pretty: --format pretty
+bdd: --format pretty
