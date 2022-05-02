@@ -4,9 +4,7 @@
 class Urls
   include Capybara::DSL
 
-  def go_to_base_url
+  def go_to_login_url
     visit 'https://automation-sandbox.herokuapp.com/'
   end
-
-  
 end

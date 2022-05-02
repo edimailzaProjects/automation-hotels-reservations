@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Given('I visit the login page') do
-  @urls.go_to_base_url
+  @urls.go_to_login_url
 end
 
 Given('I put the user name {string} and the password {string}') do |username, password|
