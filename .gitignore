@@ -1,3 +1,4 @@
+/log/
 logs /screenshots/*.png
 logs/html/*.html
 Gemfile.lock
